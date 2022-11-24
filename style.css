@@ -1,0 +1,72 @@
+body {
+  font-family: 'Roboto', monospace;
+  min-height: 40px;
+
+  background: linear-gradient(#00000080, #00000080 100%), url("/calculadora-de-nota-media/imagens/background-school.jpg");
+  background-size: cover;
+  text-align: center;
+  background-color: #F0F8FF;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+input {
+  text-align: center;
+  margin: 0.5rem;
+  padding: 5px;
+  border-radius: 15px;
+  background-color: #D3D3D3;
+  width: 185px;
+}
+
+button {
+  margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+label {
+  color: #E0FFFF;
+  font-weight: bold;
+  text-size: 10px;
+  text-shadow: 0 0 5px #111111;
+}
+
+.container {
+  text-align: center;
+  padding: 30px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #E0FFFF;
+  font-weight: bold;
+  margin: 0 0 5px;
+  text-shadow: 0 0 2px #111111;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 5px;
+  text-shadow: 0 0 2px #111111;
+  font-size: 20px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 2em;
+  text-shadow: 0 0 2px #111111;
+}
